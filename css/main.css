@@ -1,9 +1,40 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background: #eaefdf;
+}
+
+body {
+}
+
+
 .jumbotron {
-  height: 500px;
-  background-image: url("/img/home_01_6141559994_8c75d91db4_b.jpg");
+  height: 800px;
+  background: url("/img/home_01_6141559994_8c75d91db4_b.jpg") no-repeat;
+}
+
+.graphic-title {
+  background: #b20934;
+  border: 10px solid #f16e9a;
+  color: #FFF;
+  padding: 10px 50px 10px 75px;
+  position: fixed;
+  top: 100px;
+  left: -10px;
+}
+
+.graphic-title h1 {
+  font-family: 'BPReplayBold', Fallback, sans-serif;
+}
+
+@font-face {
+  font-family: 'BPReplayBold';
+  src: url('/fonts/bpreplaybold.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/bpreplaybold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/bpreplaybold.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/bpreplaybold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/bpreplaybold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 
