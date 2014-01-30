@@ -1,8 +1,23 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.jumbotron {
+  height: 500px;
+  background-image: url("/img/home_01_6141559994_8c75d91db4_b.jpg");
+}
+.odd {
+  background: #EEE;
+}
+
+.box1 {
+  font-size: 3em;
+  height: 375px;
+}
+
+.box1 p {
+  background: #CCC;
+  padding: 5%;
+}
 
 @media (min-width: 1080px) {
   .container {
