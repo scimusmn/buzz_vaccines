@@ -5,6 +5,8 @@
   height: 500px;
   background-image: url("/img/home_01_6141559994_8c75d91db4_b.jpg");
 }
+
+
 .odd {
   background: #EEE;
 }
@@ -14,9 +16,26 @@
   height: 375px;
 }
 
-.box1 p {
+.box-resting {
   background: #CCC;
   padding: 5%;
+}
+
+.box-active {
+  background: #333;
+}
+
+.box1 a,
+.box1 a:focus,
+.box1 a:hover {
+  color: #FFF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+.box1 a:active {
+  color: #000;
 }
 
 @media (min-width: 1080px) {
