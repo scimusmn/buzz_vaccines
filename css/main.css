@@ -72,8 +72,7 @@
 
 body {
   background: #eaefdf;
-  /*background: url('/img/background_green_grid.png');*/
-  background: url('/img/background_green_grid_01.png');
+  background: url('/img/background_green_grid.png');
   font-family: 'vagroundedlight', Fallback, sans-serif;
   font-size: 1.4em;
   letter-spacing: -1px;
