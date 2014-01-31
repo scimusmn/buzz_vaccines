@@ -1,0 +1,7 @@
+# Don't track VAG Rounded fonts
+# We have a license to use them in this kiosk, but we don't have rights
+# to distribute them.
+fonts/vag*
+
+# Source Photoshop docs that don't need to be in Git for now.
+src
