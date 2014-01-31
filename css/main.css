@@ -80,9 +80,13 @@ body {
   line-height: 3.5em;
 }
 
+/* Primary headline graphic */
 .jumbotron {
-  height: 800px;
+  margin-top: 240px;
+  margin-bottom: 50px;
+  height: 717px;
   background: url("/img/home_01_6141559994_8c75d91db4_b.jpg") no-repeat;
+  padding: 0;
 }
 
 .graphic-title {
