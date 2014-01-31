@@ -20,55 +20,57 @@ body {
   color: #FFF;
   padding: 10px 50px 10px 75px;
   position: fixed;
-  top: 100px;
+  top: 50px;
   left: -10px;
 }
 
-.graphic-title h1 {
-  font-family: 'BPReplayBold', Fallback, sans-serif;
+h1 {
+  font-family: 'vagroundedbold', Fallback, sans-serif;
 }
 
-@font-face {
-  font-family: 'BPReplayBold';
-  src: url('/fonts/bpreplaybold.eot'); /* IE9 Compat Modes */
-  src: url('/fonts/bpreplaybold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/fonts/bpreplaybold.woff') format('woff'), /* Modern Browsers */
-       url('/fonts/bpreplaybold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/fonts/bpreplaybold.svg#svgFontName') format('svg'); /* Legacy iOS */
+/* Menu */
+
+.choice-row-1 {
+  margin-bottom: 30px;
 }
 
-
-.odd {
-  background: #EEE;
-}
-
-.box1 {
+.box p {
   font-size: 3em;
-  height: 375px;
-}
-
-.box-resting {
-  background: #CCC;
   padding: 5%;
+  border: 7px solid #e19632;
+  border-radius: 15px;
+  height: 350px;
+  box-shadow: 0 4px 20px #999;
 }
 
-.box-active {
-  background: #333;
+/* Click states for the menu choice boxes */
+.box p.box-resting {
+  background: #c3dae8;
 }
 
-.box1 a,
-.box1 a:focus,
-.box1 a:hover {
-  color: #FFF;
+.box p.box-active {
+  background: #9ec3da;
+  box-shadow: none;
+}
+
+.box p a,
+.box p a:focus,
+.box p a:hover {
+  color: #333;
   text-decoration: none;
   background-color: transparent;
 }
 
-
-.box1 a:active {
+.box p a:active {
   color: #000;
 }
 
+/*
+ * Page container settings
+ *
+ * These are entirely specific to the 1080x1920 setup for this kiosk.
+ *
+ */
 @media (min-width: 1080px) {
   .container {
     max-width: 1080px;
@@ -230,4 +232,9 @@ body {
   .col-lg-offset-11 {
     margin-left: 91.66666666666666%;
   }
+}
+
+/* Dev column indicators */
+.odd {
+  background: #EEE;
 }
