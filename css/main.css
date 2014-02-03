@@ -104,7 +104,8 @@ h1 {
 
 /* Menu */
 
-.choice-row-1 {
+.choice-row-1,
+.choice-row-2 {
   margin-bottom: 30px;
 }
 
