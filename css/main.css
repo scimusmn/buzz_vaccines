@@ -128,15 +128,15 @@ h1 {
   box-shadow: none;
 }
 
-.box p a,
-.box p a:focus,
-.box p a:hover {
+.box a,
+.box a:focus,
+.box a:hover {
   color: #333;
   text-decoration: none;
   background-color: transparent;
 }
 
-.box p a:active {
+.box a:active {
   color: #000;
 }
 
