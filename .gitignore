@@ -3,5 +3,10 @@
 # to distribute them.
 fonts/vag*
 
+# Don't track media assets we don't have rights to distribute
+#
+# Herd immunity animation is not ours to distribute
+media/swf/sim_herd_immunity.swf
+
 # Source Photoshop docs that don't need to be in Git for now.
 src
