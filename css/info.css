@@ -1,0 +1,115 @@
+body {
+  background: #eaefdf;
+  padding-top: 30px;
+}
+.menu-choice {
+  padding: 0 20px 0 20px;
+}
+
+.box a,
+.box a:focus,
+.box a:hover {
+  color: #FFF;
+}
+
+.box {
+  height: 580px;
+  box-shadow: 0 4px 20px #999;
+  background: #eaefdf;
+}
+
+.box span {
+  display: block;
+  background: inherit;
+  font-size: 5em;
+  height: auto;
+  padding: 0 5%;
+  border: none;
+  border-radius: 0;
+  box-shadow: k;
+}
+
+.box span.question {
+  color: #fff;
+  background: #b20934;
+  border-bottom: 10px solid #f16e9a;
+  font-size: 4.5em;
+  line-height: 1em;
+  padding: 20px;
+}
+
+.back {
+  background: #b20934;
+  border: 10px solid #f16e9a;
+  color: #FFF;
+  /*padding: 10px 10px 50px 10px;*/
+  /*position: fixed;*/
+  /*font-size: 3em;*/
+}
+
+.box-info-1 {
+  background: url('/media/img/info_01_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.box-info-2 {
+  background: url('/media/img/info_02_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.box-info-3 {
+  background: url('/media/img/info_03_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.box-info-4 {
+  background: url('/media/img/info_04_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.box-info-5 {
+  background: url('/media/img/info_05_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.box-info-6 {
+  background: url('/media/img/info_06_thumb.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.info-1 {
+  background: url('/media/img/info_01.png');
+  background-repeat: no-repeat;
+}
+.info-2 {
+  background: url('/media/img/info_02.png');
+  background-repeat: no-repeat;
+}
+.info-3 {
+  background: url('/media/img/info_03.png');
+  background-repeat: no-repeat;
+}
+.info-4 {
+  background: url('/media/img/info_04.png');
+  background-repeat: no-repeat;
+}
+.info-5 {
+  background: url('/media/img/info_05.png');
+  background-repeat: no-repeat;
+}
+.info-6 {
+  background: url('/media/img/info_06.png');
+  background-repeat: no-repeat;
+}

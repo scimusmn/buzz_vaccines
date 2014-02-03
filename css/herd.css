@@ -1,0 +1,25 @@
+.jumbotron {
+  margin-top: 65px;
+  margin-bottom: 0;
+  height: 696px;
+  background: url("/media/img/crowd.png") no-repeat;
+
+}
+
+.jumbotron-clear {
+  padding-top: 100px;
+  background: #333;
+  margin: 0;
+}
+
+.jumbotron-clear .container {
+  background: #333;
+  padding: 0 0 2px 0;
+  margin: 0;
+}
+
+.box a,
+.box a:focus,
+.box a:hover {
+  color: #FFF;
+}
