@@ -140,6 +140,18 @@ h1 {
   color: #000;
 }
 
+.back {
+  top: 1850px;
+  left: 50px;
+  background: #b20934;
+  border: 10px solid #f16e9a;
+  color: #FFF;
+  padding: 10px 10px 50px 10px;
+  position: fixed;
+  font-size: 3em;
+}
+
+
 /*
  * Page container settings
  *
