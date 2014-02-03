@@ -5,11 +5,11 @@
 /* VAG Rounded Thin */
 @font-face {
     font-family: 'vagroundedthin';
-    src: url('/fonts/vagrounded-thin-webfont.eot');
-    src: url('/fonts/vagrounded-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/vagrounded-thin-webfont.woff') format('woff'),
-         url('/fonts/vagrounded-thin-webfont.ttf') format('truetype'),
-         url('/fonts/vagrounded-thin-webfont.svg#vagroundedthin') format('svg');
+    src: url('../fonts/vagrounded-thin-webfont.eot');
+    src: url('../fonts/vagrounded-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vagrounded-thin-webfont.woff') format('woff'),
+         url('../fonts/vagrounded-thin-webfont.ttf') format('truetype'),
+         url('../fonts/vagrounded-thin-webfont.svg#vagroundedthin') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,11 +17,11 @@
 /* VAG Rounded Light */
 @font-face {
     font-family: 'vagroundedlight';
-    src: url('/fonts/vagrounded-light-webfont.eot');
-    src: url('/fonts/vagrounded-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/vagrounded-light-webfont.woff') format('woff'),
-         url('/fonts/vagrounded-light-webfont.ttf') format('truetype'),
-         url('/fonts/vagrounded-light-webfont.svg#vagroundedlight') format('svg');
+    src: url('../fonts/vagrounded-light-webfont.eot');
+    src: url('../fonts/vagrounded-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vagrounded-light-webfont.woff') format('woff'),
+         url('../fonts/vagrounded-light-webfont.ttf') format('truetype'),
+         url('../fonts/vagrounded-light-webfont.svg#vagroundedlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,11 +29,11 @@
 /* VAG Rounded Bold */
 @font-face {
     font-family: 'vagroundedbold';
-    src: url('/fonts/vagrounded-bold-webfont.eot');
-    src: url('/fonts/vagrounded-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/vagrounded-bold-webfont.woff') format('woff'),
-         url('/fonts/vagrounded-bold-webfont.ttf') format('truetype'),
-         url('/fonts/vagrounded-bold-webfont.svg#vagroundedbold') format('svg');
+    src: url('../fonts/vagrounded-bold-webfont.eot');
+    src: url('../fonts/vagrounded-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vagrounded-bold-webfont.woff') format('woff'),
+         url('../fonts/vagrounded-bold-webfont.ttf') format('truetype'),
+         url('../fonts/vagrounded-bold-webfont.svg#vagroundedbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -41,11 +41,11 @@
 /* VAG Rounded Black */
 @font-face {
     font-family: 'vagroundedblack';
-    src: url('/fonts/vagrounded-black-webfont.eot');
-    src: url('/fonts/vagrounded-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/vagrounded-black-webfont.woff') format('woff'),
-         url('/fonts/vagrounded-black-webfont.ttf') format('truetype'),
-         url('/fonts/vagrounded-black-webfont.svg#vagroundedblack') format('svg');
+    src: url('../fonts/vagrounded-black-webfont.eot');
+    src: url('../fonts/vagrounded-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vagrounded-black-webfont.woff') format('woff'),
+         url('../fonts/vagrounded-black-webfont.ttf') format('truetype'),
+         url('../fonts/vagrounded-black-webfont.svg#vagroundedblack') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,26 +53,26 @@
 /* BPReplay - Generic/Open version of VAG Rounded */
 @font-face {
   font-family: 'BPReplay';
-  src: url('/fonts/bpreplay.eot');
-  src: url('/fonts/bpreplay.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/bpreplay.woff') format('woff'),
-       url('/fonts/bpreplay.ttf')  format('truetype'),
-       url('/fonts/bpreplay.svg#svgFontName') format('svg');
+  src: url('../fonts/bpreplay.eot');
+  src: url('../fonts/bpreplay.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bpreplay.woff') format('woff'),
+       url('../fonts/bpreplay.ttf')  format('truetype'),
+       url('../fonts/bpreplay.svg#svgFontName') format('svg');
 }
 
 /* BPReplayBold */
 @font-face {
   font-family: 'BPReplayBold';
-  src: url('/fonts/bpreplaybold.eot');
-  src: url('/fonts/bpreplaybold.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/bpreplaybold.woff') format('woff'),
-       url('/fonts/bpreplaybold.ttf')  format('truetype'),
-       url('/fonts/bpreplaybold.svg#svgFontName') format('svg');
+  src: url('../fonts/bpreplaybold.eot');
+  src: url('../fonts/bpreplaybold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bpreplaybold.woff') format('woff'),
+       url('../fonts/bpreplaybold.ttf')  format('truetype'),
+       url('../fonts/bpreplaybold.svg#svgFontName') format('svg');
 }
 
 body {
   background: #eaefdf;
-  background: url('/media/img/background_green_grid.png');
+  background: url('../media/img/background_green_grid.png');
   font-family: 'vagroundedlight', Fallback, sans-serif;
   font-size: 1.4em;
   letter-spacing: -1px;
@@ -84,7 +84,7 @@ body {
   margin-top: 240px;
   margin-bottom: 50px;
   height: 717px;
-  background: url("/media/img/home_header.png") no-repeat;
+  background: url("../media/img/home_header.png") no-repeat;
   padding: 0;
 }
 
