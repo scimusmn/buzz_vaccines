@@ -48,68 +48,68 @@ body {
 }
 
 .box-info-1 {
-  background: url('/media/img/info_01_thumb.png');
+  background: url('../media/img/info_01_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .box-info-2 {
-  background: url('/media/img/info_02_thumb.png');
+  background: url('../media/img/info_02_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .box-info-3 {
-  background: url('/media/img/info_03_thumb.png');
+  background: url('../media/img/info_03_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .box-info-4 {
-  background: url('/media/img/info_04_thumb.png');
+  background: url('../media/img/info_04_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .box-info-5 {
-  background: url('/media/img/info_05_thumb.png');
+  background: url('../media/img/info_05_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .box-info-6 {
-  background: url('/media/img/info_06_thumb.png');
+  background: url('../media/img/info_06_thumb.png');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
 }
 
 .info-1 {
-  background: url('/media/img/info_01.png');
+  background: url('../media/img/info_01.png');
   background-repeat: no-repeat;
 }
 .info-2 {
-  background: url('/media/img/info_02.png');
+  background: url('../media/img/info_02.png');
   background-repeat: no-repeat;
 }
 .info-3 {
-  background: url('/media/img/info_03.png');
+  background: url('../media/img/info_03.png');
   background-repeat: no-repeat;
 }
 .info-4 {
-  background: url('/media/img/info_04.png');
+  background: url('../media/img/info_04.png');
   background-repeat: no-repeat;
 }
 .info-5 {
-  background: url('/media/img/info_05.png');
+  background: url('../media/img/info_05.png');
   background-repeat: no-repeat;
 }
 .info-6 {
-  background: url('/media/img/info_06.png');
+  background: url('../media/img/info_06.png');
   background-repeat: no-repeat;
 }
