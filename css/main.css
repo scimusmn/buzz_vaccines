@@ -72,7 +72,7 @@
 
 body {
   background: #eaefdf;
-  background: url('/img/background_green_grid.png');
+  background: url('/media/img/background_green_grid.png');
   font-family: 'vagroundedlight', Fallback, sans-serif;
   font-size: 1.4em;
   letter-spacing: -1px;
@@ -84,7 +84,7 @@ body {
   margin-top: 240px;
   margin-bottom: 50px;
   height: 717px;
-  background: url("/img/home_01_6141559994_8c75d91db4_b.jpg") no-repeat;
+  background: url("/media/img/home_header.png") no-repeat;
   padding: 0;
 }
 
