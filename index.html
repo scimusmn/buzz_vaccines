@@ -18,10 +18,38 @@
     </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="css/video-js.min.css" rel="stylesheet">
 
+    <script src="js/vendor/video.js"></script>
+    <script>
+      videojs.options.children.loadingSpinner = false;
+      videojs.options.flash.swf = "media/swf/video-js.swf"
+    </script>
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
+    <div id="screensaver">
+      <video id="screensaver-video" class="video-js vjs-default-skin"
+        autoplay loop preload="auto" width="1080" height="1920"
+        data-setup='{"example_option":true}'>
+        <source src="media/video/screensaver.mp4" type='video/mp4' />
+        <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />-->
+        <!--<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />-->
+      </video>
+    </div>
+    <div id="intro-overlay">
+      <div id="intro-overlay-wrapper">
+        <video id="intro-overlay-video" class="video-js vjs-default-skin"
+          preload="auto" width="1080" height="607"
+          data-setup='{"example_option":true}'>
+          <source src="media/video/intro.mp4" type='video/mp4' />
+          <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />-->
+          <!--<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />-->
+        </video>
+        <h3>Tap below to skip the video</h3>
+      </div>
+    </div>
+
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
