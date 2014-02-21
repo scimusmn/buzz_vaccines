@@ -1,14 +1,25 @@
+//
 // Get the URL parameters
+//
 function getUrlVar(key){
     var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
     return result && unescape(result[1]) || "";
 }
 
+//
+// Set the screensaver
+//
+// 6 min = 360 sec = 360000 msec
+// Longer than normal since we've got some long-ish videos
+//
 var s_saver;
-var s_saver_enabled = getUrlVar('saver');
-var s_saver_timeout = 360000;
-//var s_saver_timeout = 2000;
+// Debug screensaver length
+var s_saver_timeout = 2000;
+//var s_saver_timeout = 360000;
+
+// Page attributes
 var current_page = $(location).attr('pathname');
+var s_saver_enabled = getUrlVar('saver');
 
 //
 // Check screensaver states on ever page load
