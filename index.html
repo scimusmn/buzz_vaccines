@@ -28,63 +28,38 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
+    <!--<div id="accessibility"></div>-->
     <div id="screensaver">
       <video id="screensaver-video" class="video-js vjs-default-skin"
         autoplay loop preload="auto" width="1080" height="1920"
         data-setup='{"example_option":true}'>
         <source src="media/video/screensaver.mp4" type='video/mp4' />
-        <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />-->
-        <!--<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />-->
       </video>
     </div>
-    <div id="intro-overlay">
-      <div id="intro-overlay-wrapper">
-        <video id="intro-overlay-video" class="video-js vjs-default-skin"
-          preload="auto" width="1080" height="607"
-          data-setup='{"example_option":true}'>
-          <source src="media/video/intro.mp4" type='video/mp4' />
-          <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />-->
-          <!--<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />-->
-        </video>
-        <h3>Tap below to skip the video</h3>
-      </div>
-    </div>
 
-    <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Headline -->
     <div class="jumbotron">
       <div class="container">
         <div class="graphic-title">
-          <h1>
-          Vax facts:<br />
-          why you need your shots
-          </h1>
+          <h1>Vax facts:<br /> why you need your shots</h1>
         </div>
       </div> <!-- /container -->
-    </div>
+    </div> <!-- /jumbotron -->
 
+    <!-- Intro video -->
+    <div class="headline-media jumbotron jumbotron-clear">
+      <div class="container">
+        <video id="intro-video" class="video-js vjs-default-skin"
+          autoplay loop preload="auto" width="1080" height="686"
+          data-setup='{"example_option":true}'
+          poster="media/img/intro-poster.png">
+          <source src="media/video/fake.mp4" type='video/mp4' />
+        </video>
+      </div> <!-- /container -->
+    </div> <!-- /headline-media -->
+
+    <!-- Base menu -->
     <div class="container">
-
-      <!-- Test row for visualizing the columns -->
-      <!--
-      <div class="row">
-      <div class="menu-choice col-lg-1"><p>test1</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test</p></div>
-      <div class="menu-choice col-lg-1"><p>test</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test</p></div>
-      <div class="menu-choice col-lg-1"><p>test</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test</p></div>
-      <div class="menu-choice col-lg-1"><p>test</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test</p></div>
-      <div class="menu-choice col-lg-1"><p>test</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test</p></div>
-      <div class="menu-choice col-lg-1"><p>test</p></div>
-      <div class="menu-choice odd col-lg-1"><p>test12</p></div>
-      </div>
-      -->
-      <!-- Temp setup for install -->
       <div class="row choice-row-1">
         <div class="menu-choice col-lg-offset-1 col-lg-5">
           <div class="box">

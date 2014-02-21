@@ -89,10 +89,33 @@ body {
 /* Primary headline graphic */
 .jumbotron {
   margin-top: 240px;
-  margin-bottom: 50px;
-  height: 717px;
-  background: url("../media/img/home_header.png") no-repeat;
+  background: transparent;
   padding: 0;
+}
+
+.headline-media {
+  background: transparent;
+  height: 686px;
+  padding: 0;
+  margin: 0 0 80px 0;
+}
+
+.headline-media .container {
+  padding: 0 0 2px 0;
+  margin: 0;
+}
+
+.headline-media.headline-herd {
+  background: url("../media/img/crowd.png") no-repeat;
+}
+
+#base-media {
+  margin: 0;
+}
+
+#base-media .container {
+  padding: 10px 0 0 8px;
+  background: #333;
 }
 
 #screensaver {
@@ -141,6 +164,7 @@ body {
 
 h1 {
   font-family: 'vagroundedbold', Fallback, sans-serif;
+  letter-spacing: 2px;
 }
 
 /* Menu */
@@ -192,6 +216,11 @@ h1 {
   font-size: 3em;
 }
 
+.back a,
+.back a:focus,
+.back a:hover {
+  color: #FFF;
+}
 
 /*
  * Page container settings
