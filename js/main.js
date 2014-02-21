@@ -62,19 +62,31 @@ $('body').mousedown(function() {
 
 });
 
+//
+// Expand click area of links inside a box.
+//
+// This lets people click anywhere inside a box that has a link inside,
+// instead of requiring people to click on the link text. Better default
+// for a touch screen.
+//
 $(".box").click(function(){
     window.location=$(this).find("a").attr("href");
     return false;
 });
 
-// Clickable boxes
+//
+// Add state classes for clickable boxes
+//
+// Default resting state
 $('.box p').addClass('box-resting');
 
+// Pressed state
 $(".box").mousedown(function(){
     console.log("down");
     $(this).children('p').addClass('box-active');
 });
 
+// Reset states on mouseup
 $(".box").mouseup(function(){
     $(this).children('p').removeClass('box-active');
     $(this).children('p').addClass('box-resting');
