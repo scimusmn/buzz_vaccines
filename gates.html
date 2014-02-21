@@ -10,43 +10,40 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-      body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-      }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="css/video-js.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/gates.css">
-
     <script src="js/vendor/video.js"></script>
     <script>
+      videojs.options.children.loadingSpinner = false;
       videojs.options.flash.swf = "media/swf/video-js.swf"
     </script>
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <!-- Accessibiliy out of reach area -->
+    <!--<div id="accessibility"></div>-->
+
+    <!-- Headline -->
+    <div class="jumbotron gates">
       <div class="container">
         <div class="graphic-title">
-          <h1>
-            Gates on Vaccines
-          </h1>
+          <h1>Gates on vaccines</h1>
         </div>
       </div> <!-- /container -->
+    </div> <!-- /jumbotron -->
+
+    <!-- Headline media -->
+    <div class="headline-media headline-gates jumbotron jumbotron-clear">
+      <!-- Oral polio vax pic -->
     </div>
 
-    <div class="jumbotron jumbotron-clear">
+    <!-- Base media -->
+    <div id="base-media" class="gates">
       <div class="container">
         <video id="example_video_1" class="video-js vjs-default-skin"
-          autoplay preload="auto" width="1080" height="608"
-          poster="media/img/gates.png"
+          preload="auto" width="1080" height="686"
+          poster="media/img/gates-poster.png"
           data-setup='{"example_option":true}'>
           <source src="media/video/gates.mp4" type='video/mp4' />
           <!--<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />-->

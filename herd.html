@@ -10,12 +10,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-      body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-      }
-    </style>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -23,8 +17,11 @@
   </head>
   <body>
 
+    <!-- Accessibiliy out of reach area -->
+    <!--<div id="accessibility"></div>-->
+
     <!-- Headline -->
-    <div class="jumbotron">
+    <div class="jumbotron herd">
       <div class="container">
         <div class="graphic-title">
           <h1>Herd Effect</h1>
@@ -38,7 +35,7 @@
     </div>
 
     <!-- Base media -->
-    <div id="base-media">
+    <div id="base-media" class="herd">
       <div class="container">
         <object data="media/swf/sim_herd_immunity.swf" type="application/x-shockwave-flash" width="1070" height="586">
           <param name="movie" value="media/swf/sim_herd_immunity.swf">

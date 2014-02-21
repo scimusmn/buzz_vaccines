@@ -27,7 +27,8 @@ $( document ).ready(function() {
         $('#screensaver').hide();
 
         // Play the video
-        $('#intro-overlay').show();
+        // Disabling this for testing
+        //$('#intro-overlay').show();
 
         // Run a timer from the load of the page
         s_saver = setTimeout(function(){
