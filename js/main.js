@@ -14,10 +14,6 @@ var current_page = $(location).attr('pathname');
 // Check screensaver states on ever page load
 //
 $( document ).ready(function() {
-    //$("#intro-overlay-video")[0].player.play();
-    //if (current_page == 'index.html') {
-        //$('#intro-overlay').hide();
-    //}
 
     // Check if the URL tells us to load the screensaver.
     // This happens when the timeout occurs on a sub page. The user is sent
