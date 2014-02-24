@@ -442,6 +442,7 @@ h2.quiz {
   padding: 10px 10px 50px 10px;
   position: fixed;
   font-size: 3em;
+  box-shadow: 0 4px 20px #999;
 }
 .start-over {
   left: 100px;
