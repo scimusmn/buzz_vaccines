@@ -1,6 +1,7 @@
 /* Disable cursor */
-/** { cursor: url(../media/img/cursor.png), none !important }*/
-* { cursor: url(../media/img/cursor-dev.png), none !important }
+* { cursor: url(../media/img/cursor.png), none !important }
+/* Dev cursor */
+/** { cursor: url(../media/img/cursor-dev.png), none !important }*/
 
 body {
   background: #eaefdf;
