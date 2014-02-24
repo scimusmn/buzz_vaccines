@@ -14,8 +14,8 @@ function getUrlVar(key){
 //
 var s_saver;
 // Debug screensaver length
-var s_saver_timeout = 5000;
-//var s_saver_timeout = 360000;
+//var s_saver_timeout = 5000;
+var s_saver_timeout = 360000;
 
 // Page attributes
 var current_page = $(location).attr('pathname');
