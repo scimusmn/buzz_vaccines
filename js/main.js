@@ -19,17 +19,19 @@ var s_saver_timeout = 360000;
 
 // Page attributes
 var current_page = $(location).attr('pathname');
-console.log(current_page);
 var s_saver_enabled = getUrlVar('saver');
 
 //
-// Screensaver - load
-//
-// Check if the URL tells us to load the screensaver.
-// This happens when the timeout occurs on a sub page. The user is sent
-// back to the index page with this URL flag, enabling the screensaver.
-//
+// Preform these only after loading the full page
 $(window).bind("load", function() {
+
+    //
+    // Screensaver - load
+    //
+    // Check if the URL tells us to load the screensaver.
+    // This happens when the timeout occurs on a sub page. The user is sent
+    // back to the index page with this URL flag, enabling the screensaver.
+    //
 
     if (s_saver_enabled != 'true') {
         // Start by hiding the screensaver overlay
@@ -82,7 +84,6 @@ $('.box p').addClass('box-resting');
 
 // Pressed state
 $(".box").mousedown(function(){
-    console.log("down");
     $(this).children('p').addClass('box-active');
 });
 
