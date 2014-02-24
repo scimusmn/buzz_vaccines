@@ -75,6 +75,15 @@ $('body').mousedown(function() {
 
 });
 
+//
+// Intro video
+//
+// Make the intro video play when clicked
+//
+$('#intro-video').click(function(){
+    console.log('video clicked');
+    $('#intro-video')[0].player.play();
+});
 
 //
 // Add state classes for clickable boxes
