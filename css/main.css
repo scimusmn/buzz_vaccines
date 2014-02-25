@@ -1,5 +1,11 @@
 /* Disable cursor */
-* { cursor: url(../media/img/cursor.png), none !important }
+*,
+*:active,
+*:hover
+*:link,
+*:visited {
+  cursor: url(../media/img/cursor.png), none !important;
+}
 /* Dev cursor */
 /** { cursor: url(../media/img/cursor-dev.png), none !important }*/
 
