@@ -33,7 +33,7 @@ if (selectedAnswer == 'question'){
 
     $(window).bind("load", function() {
         $('div#timer-1').pietimer({
-            seconds: 30,
+            seconds: 50,
             colour: '#B32037'
         }, function() {
             window.location.replace('quiz_a_question.html?question=' + question + '&answer=none');
