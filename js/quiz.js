@@ -22,6 +22,19 @@ var correctAnswer = $('#question-choices-' + question).attr('correct');
 
 $('#question-num').text(parseInt(question));
 
+var score = getUrlVar('score');
+// If the score is unset, make it 0
+if (! score) {
+    console.log('no score');
+    score = 0;
+}
+if (question == '01' && selectedAnswer == 'question') {
+    $('#your-score').hide();
+} else {
+    console.log("in here");
+    $('#your-score').text('Your score: ' + parseInt(score) + '/6');
+}
+
 //
 // Question page
 //
@@ -31,12 +44,19 @@ if (selectedAnswer == 'question'){
 
     $('.next-question').hide();
 
+    $('.quiz-choice a').each(function() {
+        var _href = $(this).attr("href");
+        $(this).attr("href", _href + '&score=' + score);
+    });
+
     $(window).bind("load", function() {
         $('div#timer-1').pietimer({
-            seconds: 50,
+            seconds: 5,
             colour: '#B32037'
         }, function() {
-            window.location.replace('quiz_a_question.html?question=' + question + '&answer=none');
+            window.location.replace('quiz_a_question.html?question=' +
+                                    question + '&answer=none' +
+                                    '&score=' + score);
         });
     });
 
@@ -110,6 +130,12 @@ else {
     //
     $('.' + correctAnswer).addClass('correct');
 
+    if (correctAnswer == selectedAnswer) {
+        score = parseInt(score) + 1;
+        console.log('You got it right' + score);
+        $('#your-score').text('Your score: ' + parseInt(score) + '/6');
+    }
+
     //
     // Show the explanation
     //
@@ -125,7 +151,8 @@ else {
         }
         $('.next-question a').attr('href', 'quiz_a_question.html?' +
                                    'question=' + nextQuestion + '&' +
-                                   'answer=question');
+                                   'answer=question&' +
+                                   'score=' + score);
     }
     else {
         console.log('test');
