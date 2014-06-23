@@ -6,8 +6,6 @@
 *:visited {
   cursor: url(../media/img/cursor.png), none !important;
 }
-/* Dev cursor */
-/** { cursor: url(../media/img/cursor-dev.png), none !important }*/
 
 body {
   background: #eaefdf;
@@ -56,7 +54,7 @@ body {
   background: transparent;
   height: 686px;
   padding: 0;
-  margin: 0 0 80px 0;
+  margin: 0 0 20px 0;
 }
 
 .headline-media .container {
@@ -120,9 +118,12 @@ h3 {
 
 /* Menu */
 
-.choice-row-1,
-.choice-row-2 {
+.choice-row-1 {
   margin-bottom: 30px;
+}
+
+.choice-row-2 {
+  margin-bottom: 20px;
 }
 
 .box p {
@@ -462,6 +463,18 @@ h2.quiz {
   left: 100px;
 }
 
+.credit {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.credit img {
+  margin: 0 10px;
+}
+
+.credit p {
+  margin: 10px 0 0 0;
+}
 
 /* Dev column indicators */
 .odd {
